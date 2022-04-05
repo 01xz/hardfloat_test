@@ -10,7 +10,6 @@ TB_DIR  ?= testbench
 
 IVERILOG := iverilog -I$(INC_DIR) -I$(SRC_DIR)/$(SPECIALIZE_TYPE)
 VVP      := vvp
-GTKWAVE  := gtkwave
 
 vpath %.vi $(INC_DIR) $(SRC_DIR)/$(SPECIALIZE_TYPE)
 vpath %.v $(TB_DIR) $(SRC_DIR) $(SRC_DIR)/$(SPECIALIZE_TYPE)
